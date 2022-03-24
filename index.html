@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Calculadora de Media</title>
+</head>
+
+<body>
+  <script src="app.js"></script>
+
+  <!------------cabeçalho--------------->
+
+  <section class="banner">
+
+
+    <p><img src="IMG/logotipo.png" class="logotipo"></p>
+
+    <P><h1 class="titulo">
+      Calculadora de média
+    </h1></P>
+
+  </section>
+
+  <!------------conteudo--------------->
+
+  <section class="principal">
+
+    <div class="conteudo">
+      <h3>&nbsp;&nbsp;Bem-vindo (a) ao meu projeto!</h3>
+      &nbsp;&nbsp;Aqui você conseguirá, de forma simples, calcular a média entre quatro provas, e no final saber se você foi aprovado(a) ou não na disciplina.
+      <br><br>
+      &nbsp;&nbsp;Primeiramente, se apresente por favor:
+
+      <br><br>
+      <center>
+      <label for="nome"><h2>Seu nome:</h2></label><br>
+      <input type="text" id="nome" /><br>
+
+      <label for="aprovacao"><h2>Digite a nota mínima necessária para ser aprovado:</h2></label><br>
+      <input type="numeric" id="aprovacao" size="2" /><br>
+      <br><br>
+    </center>
+    &nbsp;&nbsp;Por fim, utilize os espaços ao lado para colocar a nota das suas quatro provas.
+
+
+
+
+    </div>
+
+    <div class="calculadora">
+
+      <label for="notas">
+        <h3>Insira o valor das suas notas</h3>
+      </label><br>
+
+      <p><label for="nota1">Nota da 1ª Prova:</label>
+        <input type="numeric" id="nota1" size="2" />
+      </p>
+
+
+      <p><label for="nota2">Nota da 2ª Prova:</label>
+        <input type="numeric" id="nota2" size="2" />
+      </p>
+
+      <p><label for="nota3">Nota da 3ª Prova:</label>
+        <input type="numeric" id="nota3" size="2" />
+      </p>
+
+      <p><label for="nota4">Nota da 4ª Prova:</label>
+        <input type="numeric" id="nota4" size="2" />
+      </p>
+
+
+      <p><button type="submit" onclick="calcularMedia()">Calcular</button></p>
+
+      <h2 class="resultado" id="media"></h2>
+    </div>
+
+  </section>
+
+</body>
+
+<!------------rodape--------------->
+
+<footer>
+  <section class="rodape">
+
+    <div class="icones">
+      <a class="links" href="https://github.com/sarahnideck" target="blank">
+        <img class="social" src="IMG/gthb.png" alt="GitHub">
+      </a>
+      <a class="links" href="https://www.linkedin.com/in/sarah-nideck-86130a82/" target="blank">
+        <img class="social" src="IMG/lnkin.png" alt="LinkedIN">
+      </a>
+      <a class="links" href="https://twitter.com/_kaldrinn" target="blank">
+        <img class="social" src="IMG/twt.png" alt="Twitter">
+      </a>
+
+      <p>
+        <a href="https://alura.com.br/" target="_blank"><img
+            src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg"
+            class="icone"></a>
+      </p>
+    </div>
+    <div class="copyright">
+
+      <p>Página Desenvolvida por Sarah Nideck durante a Imersão Dev da Alura | 2022. Imagens de banner e ícones de redes por Pngwing.</p>
+
+      <p>© Todos os Direitos Reservados</p>
+    </div>
+
+  </section>
+</footer>
+
+</html>

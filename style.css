@@ -1,0 +1,127 @@
+body {
+  background-color: #313D5A;
+  font-family: "Roboto Condensed", sans-serif;
+  margin: 0px;
+  padding: 0px;
+  color: #B9E1E0;
+
+}
+
+.banner {
+  display: flex;
+  flex-direction: row;
+  color:black;
+  padding: 5px;
+  align-content: flex-end;
+  background-color: #48A9A6;
+  gap: 10px;
+
+
+}
+
+.logotipo {
+    width: 30%;
+    padding: 0px;
+    border-radius: 50%;
+    margin-left: 400px;
+    background-color: #CBC5EA;
+
+}
+
+.titulo {
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 700;
+  font-size: 70px;
+  text-align: center;
+  padding: 2px;
+  margin-right: 400px;
+}
+
+
+.logo {
+  width: 15%;
+  height: 15%;
+}
+
+.principal {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 50px;
+
+}
+
+.conteudo {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  padding: 30px;
+  margin-top: 30px;
+
+}
+
+.calculadora {
+  display: flex;
+  flex-direction: column;
+  text-align:center;
+  width: 35%;
+  padding: 30px;
+  margin-top: 30px;
+  background-color: #CBC5EA;
+  color: black;
+}
+
+input {
+  width: 150px;
+  border: 2px solid;
+  padding: 10px;
+  margin: 0px;
+
+}
+
+button {
+  margin-top: 12px;
+  padding: 4px 8px;
+  background: #86BBD8;
+  border-radius: 10px;
+  border: none;
+  padding: 20px;
+  width: fit-content;
+  font-size: large;
+  font-weight: 700;
+  font-style: bold;
+
+}
+
+button:hover {
+  background-color: #48A9A6;
+  cursor: pointer;
+}
+
+
+.rodape {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: #CBC5EA;
+  background-color: #183642;
+  padding: 5px;
+  margin-top: 40px;
+  border: 10px;
+  justify-content: center;
+
+}
+.icone
+{
+  height: 12%;
+  width: 12%;
+  padding: 5px;
+}
+
+.social
+{
+
+  width: 80px;
+  height: 80px;
+  padding: 5px;
+}
